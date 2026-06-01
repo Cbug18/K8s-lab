@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mongo-config
+data:
+  DATABASE_NAME: mydatabase
+  DATABASE_HOST: mongo-service
